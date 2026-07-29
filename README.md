@@ -17,16 +17,16 @@ The application is structured into four distinct analytical areas:
 *   **Customer Report:** Analyzing demographics and regional buyer behavior.
 *   **Order & Shipping Analysis:** Tracking supply chain efficiency, delivery bottlenecks, and return trends.
 *   **Summary:** major changes and key points in the analysis
-## 2. Data Collection
+## Data Collection
 The dataset consists of 4,200 transactional records encompassing the entire customer journey from purchase to delivery. The data includes dimensions such as Customer Demographics (Age, Gender, Location), Transactional Data (Order ID, Payment Method, Unit Price, Discount), and Fulfillment Data (Order Status, Days to Ship, Return Flag, Customer Satisfaction).
 
-## 3. Phase 1: Preprocessing in Excel
+## Phase 1: Preprocessing in Excel
 Before importing into Power BI, the raw data underwent rigorous cleaning and structuring in Excel. 
 *   **Structural Changes:** The file was organized into distinct sheets (`Raw`, `Cleaned Data`, and an audit trail `Changes made` log) to maintain data integrity.
 *   **Data Quality:** Handled missing values, standardized the `Order Status` and `Payment Method` text formats, and ensured that numerical columns like `Sales Amount` and `Profit` were formatted as decimals for seamless DAX aggregation.
 *   **Challenges:** A key challenge was ensuring the date fields and the calculated `Days to Ship` column were perfectly formatted as whole numbers, as any text strings mixed into these columns would break the time-intelligence calculations in Power BI.
 
-## 4. Phase 2: Power BI Dashboard
+## Phase 2: Power BI Dashboard
 The dashboard was built with a custom UI/UX design utilizing a deep teal and golden yellow corporate color palette. 
 
 **Key DAX Measures Performed:**
@@ -41,7 +41,7 @@ The dashboard was built with a custom UI/UX design utilizing a deep teal and gol
 ![Nexus_Retail_Sales_Analysis](image/Summary.JPG)
 
 
-## 5. Findings & Strategic Insights
+## Findings & Strategic Insights
 Based on the analysis, several key operational and commercial insights were uncovered:
 
 1.  **Financial Health:** The business generated $231.7 million in total sales while maintaining a strong profit margin of 21.36%.
