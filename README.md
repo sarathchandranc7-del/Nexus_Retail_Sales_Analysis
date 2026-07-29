@@ -27,7 +27,7 @@ Before importing into Power BI, the raw data underwent rigorous cleaning and str
 *   **Challenges:** A key challenge was ensuring the date fields and the calculated `Days to Ship` column were perfectly formatted as whole numbers, as any text strings mixed into these columns would break the time-intelligence calculations in Power BI.
 
 ## 4. Phase 2: Power BI Dashboard
-The dashboard was built with a custom UI/UX design utilizing a deep teal (`#1A5F7A`) and golden yellow (`#FFC300`) corporate color palette. 
+The dashboard was built with a custom UI/UX design utilizing a deep teal and golden yellow corporate color palette. 
 
 **Key DAX Measures Performed:**
 *   **Average Shipping Time:** `AVERAGE('Cleaned Data'[Days to Ship])` - Crucial for evaluating supply chain speeds.
