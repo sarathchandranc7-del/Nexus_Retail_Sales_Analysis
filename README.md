@@ -34,7 +34,8 @@ The dashboard was built with a custom UI/UX design utilizing a deep teal and gol
 *   **Total Orders:** `DISTINCTCOUNT('Cleaned Data'[Order ID])` - Used to calculate the exact volume of fulfillment required.
 *   **Profit Margin %:** `DIVIDE(SUM('Cleaned Data'[Profit]), SUM('Cleaned Data'[Sales Amount]), 0)`
 
-![Image](Image/Customer_Report.JPG)
+![image](images/Csutomer_report.JPG)
+
 
 ## 5. Findings & Strategic Insights
 Based on the analysis, several key operational and commercial insights were uncovered:
