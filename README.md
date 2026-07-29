@@ -35,6 +35,10 @@ The dashboard was built with a custom UI/UX design utilizing a deep teal and gol
 *   **Profit Margin %:** `DIVIDE(SUM('Cleaned Data'[Profit]), SUM('Cleaned Data'[Sales Amount]), 0)`
 
 ![Nexus_Retail_Sales_Analysis](image/Mainmenu.JPG)
+![Nexus_Retail_Sales_Analysis](image/CustomerReport.JPG)
+![Nexus_Retail_Sales_Analysis](image/SalesPerformance.JPG)
+![Nexus_Retail_Sales_Analysis](image/ShippingandOrderanalysis.JPG)
+![Nexus_Retail_Sales_Analysis](image/Summary.JPG)
 
 
 ## 5. Findings & Strategic Insights
