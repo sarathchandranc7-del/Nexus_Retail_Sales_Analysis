@@ -4,6 +4,13 @@ A Power BI project analyzing e-commerce revenue and supply chain efficiency for 
 About the Project
 This project involves the design and development of an end-to-end business intelligence dashboard for Nexus Retail Group, a simulated large-scale e-commerce enterprise. The primary objective of this analysis is to separate commercial sales performance from operational fulfillment, providing executives with a clear, segmented view of the business. 
 
+## Tools & Methodologies Demonstrated
+*   **Data Cleaning & Preprocessing:** Microsoft Excel (Power Query, Data Validation)
+*   **Data Modeling:** Power BI (Star Schema design, 1-to-Many relationships)
+*   **Calculations:** Advanced DAX (Time Intelligence, Iterators, CALCULATE functions)
+*   **Data Visualization:** Custom UI/UX design, conditional formatting, dynamic filtering via slicers
+*   **Domain Focus:** E-commerce commercial performance and supply chain logistics
+
 The application is structured into four distinct analytical areas:
 *   **Home/Navigation:** A clean, executive portal for report navigation.
 *   **Sales Performance:** Tracking revenue generation and profitability.
