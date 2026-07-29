@@ -9,7 +9,7 @@ The application is structured into four distinct analytical areas:
 *   **Sales Performance:** Tracking revenue generation and profitability.
 *   **Customer Report:** Analyzing demographics and regional buyer behavior.
 *   **Order & Shipping Analysis:** Tracking supply chain efficiency, delivery bottlenecks, and return trends.
-
+*   **Summary:** major changes happened and key points happened in the analysis
 ## 2. Data Collection
 The dataset consists of 4,200 transactional records encompassing the entire customer journey from purchase to delivery. The data includes dimensions such as Customer Demographics (Age, Gender, Location), Transactional Data (Order ID, Payment Method, Unit Price, Discount), and Fulfillment Data (Order Status, Days to Ship, Return Flag, Customer Satisfaction).
 
